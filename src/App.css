@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: #242424;
+  max-height: 80%;
+}
+
+.head{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: sticky;
+}
+.form{
+  max-width: 350px;
+  background-color: #fff;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 1.5em;
+  margin: auto;
+  justify-content: space-between;
+}
+.rst {
+background-color: #242424;
+color: #fff;
+padding: 5px;
+cursor: pointer;
+transition: background-color 0.5s;
+margin-left: 5%;
+width: 45%;
+}
+button:is(:hover, :focus)
+{
+  background-color: #353535;
+  color:#fff;
+}
+.inpform {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  }
+.inpform label{
+  font-size: 14px;
+  color: #242424;
+  font-weight: bold;
+}
+
+.inpform input{
+  width: 93.5%;
+  padding: 5px 8px;
+  background-color: #f2f2f2;
+}
+
+.inpform input:focus{
+  outline: 2px solid #242424;
+  background-color: transparent;
+}
+
+.rst{
+  display: flex;
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  justify-content: center;
+}
+.gpatxt{
+  display: flex;
+  justify-content: center;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  font-weight: bolder;
+}
